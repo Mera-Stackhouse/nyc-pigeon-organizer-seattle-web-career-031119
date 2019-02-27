@@ -1,0 +1,3 @@
+hash = {}
+
+hash[mera: "cool"]
