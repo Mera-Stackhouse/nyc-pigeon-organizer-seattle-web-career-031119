@@ -1,5 +1,6 @@
 hash = {}
 
-hash[:mera][:is] = "cool"
+hash[:mera] = {}
+[:is] = "cool"
 
 puts hash
