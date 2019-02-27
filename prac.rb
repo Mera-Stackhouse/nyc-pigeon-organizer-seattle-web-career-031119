@@ -32,11 +32,11 @@ def nyc_pigeon_organizer(data)
           hash[element] = {}
         end
         binding.pry
-        if !hash[value].has_key?(key1)
-          hash[value][key1] = []
-          hash[value][key1] << "#{key2}"
+        if !hash[element].has_key?(key1)
+          hash[element][key1] = []
+          hash[element][key1] << "#{key2}"
         else
-          hash[value][key1] << "#{key2}"
+          hash[element][key1] << "#{key2}"
         end
       }
     }
