@@ -29,7 +29,7 @@ def nyc_pigeon_organizer(data)
       
       value.each {|element|
         if !hash.has_key?(element)
-          hash[value] = {}
+          hash[element] = {}
         end
         binding.pry
         if !hash[value].has_key?(key1)
