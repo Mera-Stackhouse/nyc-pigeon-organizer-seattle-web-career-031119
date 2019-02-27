@@ -21,6 +21,7 @@ def nyc_pigeon_organizer(data)
   hash = {}
   data.each {|key, value|
     key1 = key
+    binding.pry
     value.each {|key, value|
       key2 = key
       value.each {|element|
