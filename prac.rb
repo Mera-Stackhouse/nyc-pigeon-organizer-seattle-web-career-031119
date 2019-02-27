@@ -31,7 +31,6 @@ def nyc_pigeon_organizer(data)
         if !hash.has_key?(element)
           hash[element] = {}
         end
-        binding.pry
         if !hash[element].has_key?(key1)
           hash[element][key1] = []
           hash[element][key1] << "#{key2}"
