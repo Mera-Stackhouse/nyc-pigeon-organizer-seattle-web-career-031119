@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
       key2 = key
       value.each {|element|
         if hash.has_key?(value)
-          hash[value][key1] = key2_
+          hash[value][key1] = "#{key2}"
       
   
 end
