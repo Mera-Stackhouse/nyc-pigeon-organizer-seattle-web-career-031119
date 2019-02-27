@@ -1,3 +1,5 @@
+require "pry"
+
 data = {
         :color => {
           :purple => ["Theo", "Peter Jr.", "Lucky"],
